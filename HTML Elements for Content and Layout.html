@@ -1,0 +1,212 @@
+# Task 1
+<nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+
+  # task 2
+  <div class="gallery">
+    <img src="movie1.jpg" alt="Movie 1">
+    <img src="album1.jpg" alt="Album 1">
+    <img src="game1.jpg" alt="Game 1">
+  </div>
+
+  .gallery img {
+    width: 200px;
+    transition: transform 0.3s;
+  }
+  .gallery img:hover {
+    transform: scale(1.1);
+    border: 2px solid #000;
+  }
+
+  # task3
+  <button class="cta">Watch Now</button>
+<button class="cta">Listen Here</button>
+<button class="cta">Play Game</button>
+
+button.cta {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  button.cta:hover {
+    background-color: darkblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+# task4
+<form class="feedback-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <label for="comments">Comments:</label>
+  <textarea id="comments" name="comments"></textarea>
+  <button type="submit">Submit</button>
+</form>
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .feedback-form label {
+    margin-top: 10px;
+  }
+  .feedback-form input, .feedback-form textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  .feedback-form input:focus, .feedback-form textarea:focus {
+    border-color: blue;
+  }
+  .feedback-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .feedback-form button:hover {
+    background-color: darkgreen;
+  }
+
+  # Task 1
+  <form class="registration-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <button typ
+    e="submit">Register</button>
+  </form>
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .registration-form label {
+    margin-top: 10px;
+  }
+  .registration-form input {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  .registration-form input:focus {
+    border-color: blue;
+  }
+  .registration-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .registration-form button:hover {
+    background-color: darkgreen;
+  }
+
+  #Task 2
+  <ul class="nav-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  .nav-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  .nav-menu li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+  .nav-menu li a:hover {
+    color: red;
+  }
+
+  # task3
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Item 1</td>
+        <td>$10</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Item 2</td>
+        <td>$15</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Item 3</td>
+        <td>$8</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .data-table th, .data-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  .data-table th {
+    background-color: #f4f4f4;
+  }
+  .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
